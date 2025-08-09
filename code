@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pregnancy & Chiropractic — Educational</title>
+  <meta name="description" content="Evidence‑informed educational overview of chiropractic care during pregnancy: benefits, safety, what to expect, techniques, FAQs and resources." />
+  <style>
+    :root {
+      --bg: #0b0c0f;
+      --card: #12141a;
+      --muted: #a8b0bf;
+      --text: #e7eaf0;
+      --accent: #7cc4ff;
+      --border: #232734;
+      --pill: #1a1d25;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius: 20px;
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: linear-gradient(180deg, #0b0c0f, #0e1117 60%, #0b0c0f 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    header.sticky {
+      position: sticky; top: 0; z-index: 50;
+      background: rgba(11,12,15,.7); backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+    .nav { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+    .nav-links { display: none; gap: 20px; color: var(--muted); }
+    .btn { display: inline-block; padding: 12px 18px; border-radius: 999px; border: 1px solid #2a3343; color: var(--text); background: #141824; box-shadow: var(--shadow); }
+    .btn.primary { background: linear-gradient(180deg, #1b5cff, #0a3fe0); border: none; }
+    .btn.ghost { background: transparent; }
+    .hero { padding: 72px 0; }
+    .grid { display: grid; gap: 20px; }
+    .grid-2 { grid-template-columns: 1fr; }
+    .grid-3 { grid-template-columns: 1fr; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); }
+    .card .p { padding: 22px; }
+    .title-xl { font-size: clamp(28px, 4vw, 44px); line-height: 1.15; font-weight: 700; letter-spacing: -0.01em; }
+    .title-lg { font-size: 28px; font-weight: 650; letter-spacing: -0.01em; }
+    .title-md { font-size: 20px; font-weight: 650; }
+    .muted { color: var(--muted); }
+    .section { padding: 56px 0; }
+    .section h2 { margin: 0 0 8px; }
+    .section p.lead { margin: 0 0 24px; color: var(--muted); max-width: 65ch; }
+    .list { padding-left: 18px; margin: 0; }
+    .pill {
+      display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px;
+      background: var(--pill); border: 1px solid var(--border); border-radius: 999px; color: var(--text);
+      font-size: 13px;
+    }
+    .pill-row { display: flex; flex-wrap: wrap; gap: 10px; }
+    .kicker { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+    .avatar-img { height: 230px; border-radius: 16px; object-fit: cover; }
+    .benefits .card { height: 100%; }
+    .columns { columns: 2; column-gap: 22px; }
+
+    /* Accordion */
+    details { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 14px 16px; }
+    details + details { margin-top: 12px; }
+    details summary { list-style: none; cursor: pointer; font-weight: 600; }
+    details summary::-webkit-details-marker { display: none; }
+    details[open] { border-color: #2f6feb; }
+
+    footer { border-top: 1px solid var(--border); }
+
+    @media (min-width: 720px) {
+      .nav-links { display: flex; }
+      .grid-2 { grid-template-columns: 1.05fr .95fr; }
+      .grid-3 { grid-template-columns: repeat(3, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <header class="sticky">
+    <div class="container nav">
+      <a href="#top" style="font-weight:700">Pregnancy & Chiropractic</a>
+      <nav class="nav-links">
+        <a href="#benefits">Benefits</a>
+        <a href="#safety">Safety</a>
+        <a href="#what-to-expect">What to Expect</a>
+        <a href="#techniques">Techniques</a>
+        <a href="#evidence">Evidence</a>
+        <a href="#faq">FAQ</a>
+        <a href="#resources">Resources</a>
+      </nav>
+      <a href="#talk" class="btn">Talk to Your Provider</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container grid grid-2" style="align-items:center">
+        <div>
+          <h1 class="title-xl">Evidence‑informed chiropractic care during pregnancy</h1>
+          <p class="muted" style="margin-top:12px; max-width:65ch">Many pregnant people experience back or pelvic pain and other musculoskeletal changes. Chiropractic care may help with comfort, mobility, and function when used safely and collaboratively with your obstetric provider.</p>
+          <div class="pill-row" style="margin-top:16px">
+            <span class="pill">Patient‑centered</span>
+            <span class="pill">Safety first</span>
+            <span class="pill">Gentle options</span>
+          </div>
+          <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:22px">
+            <a class="btn primary" href="#benefits">Explore Benefits</a>
+            <a class="btn ghost" href="#evidence">View the Evidence</a>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <div class="p">
+              <div class="grid" style="grid-template-columns:1fr 1fr; gap:16px">
+                <div style="grid-column:1/-1">
+                  <img class="avatar-img" alt="Pregnant person receiving gentle side‑lying chiropractic care" src="https://images.unsplash.com/photo-1603912816541-1d0f7d3c06d0?q=80&w=1200&auto=format&fit=crop" />
+                </div>
+                <div>
+                  <div class="kicker">Common symptoms</div>
+                  <ul class="muted list">
+                    <li>Low back or pelvic girdle pain</li>
+                    <li>Sciatica‑like leg pain</li>
+                    <li>Mid‑back/rib discomfort</li>
+                    <li>Postural strain and stiffness</li>
+                  </ul>
+                </div>
+                <div>
+                  <div class="kicker">Care goals</div>
+                  <ul class="muted list">
+                    <li>Reduce pain and tension</li>
+                    <li>Improve mobility and daily function</li>
+                    <li>Support better sleep and activity</li>
+                    <li>Prepare for the physical demands of birth</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits -->
+    <section id="benefits" class="section">
+      <div class="container">
+        <h2 class="title-lg">Potential benefits</h2>
+        <p class="lead">What research and clinical experience suggest chiropractic care may help with during pregnancy</p>
+        <div class="grid grid-3 benefits">
+          <div class="card"><div class="p">
+            <h3 class="title-md">Back & pelvic pain relief</h3>
+            <p class="muted">Targeted manual therapy and exercise can reduce pregnancy‑related low back and pelvic girdle pain in many people. Responses vary; combining care with activity and sleep strategies often works best.</p>
+          </div></div>
+          <div class="card"><div class="p">
+            <h3 class="title-md">Gentle, non‑drug options</h3>
+            <p class="muted">For those minimizing medications, chiropractic provides non‑pharmacologic options such as mobilization, soft tissue work, and tailored exercises.</p>
+          </div></div>
+          <div class="card"><div class="p">
+            <h3 class="title-md">Improved mobility & function</h3>
+            <p class="muted">Restoring comfortable movement patterns may make daily tasks—standing, walking, lifting, and sleeping—easier through the trimesters.</p>
+          </div></div>
+          <div class="card"><div class="p">
+            <h3 class="title-md">Comfort‑focused care</h3>
+            <p class="muted">Side‑lying, pregnancy pillows, and low‑force techniques help accommodate body changes while prioritizing comfort.</p>
+          </div></div>
+          <div class="card"><div class="p">
+            <h3 class="title-md">Education & self‑management</h3>
+            <p class="muted">Expect guidance on posture, sleep positions, pelvic support belts, and safe strength/mobility routines you can continue at home.</p>
+          </div></div>
+          <div class="card"><div class="p">
+            <h3 class="title-md">Collaborative support</h3>
+            <p class="muted">Chiropractors can coordinate with OB/midwives and physical therapists to align care with your pregnancy plan and any medical considerations.</p>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Safety -->
+    <section id="safety" class="section">
+      <div class="container grid grid-2">
+        <div class="card"><div class="p">
+          <h2 class="title-lg">Safety first</h2>
+          <p class="lead">When used appropriately, chiropractic care is generally considered safe in pregnancy. Screening helps tailor care to you.</p>
+          <h3 class="title-md" style="margin-top:8px">Common safety adaptations</h3>
+          <ul class="muted list">
+            <li>Side‑lying or elevated positions instead of prolonged flat‑on‑back, especially after mid‑pregnancy.</li>
+            <li>Avoiding direct abdominal pressure; using pregnancy pillows and cut‑out tables.</li>
+            <li>Favoring gentle mobilization or instrument‑assisted adjustments when appropriate.</li>
+            <li>Short, comfortable session lengths with frequent check‑ins.</li>
+          </ul>
+        </div></div>
+        <div class="card"><div class="p">
+          <h3 class="title-md">Red flags — seek medical care first</h3>
+          <p class="muted">Consult your obstetric provider before chiropractic care if you have:</p>
+          <ul class="muted list">
+            <li>Vaginal bleeding, fluid leakage, or preterm labor concerns</li>
+            <li>Placenta previa or placental abruption</li>
+            <li>Severe preeclampsia, uncontrolled hypertension, or significant swelling/headache/vision changes</li>
+            <li>Severe or progressive neurologic deficits</li>
+            <li>Fever, infection, or sudden severe abdominal pain</li>
+          </ul>
+          <p class="muted" style="font-size:12px">This is not a complete list. When in doubt, check with your OB or midwife.</p>
+        </div></div>
+      </div>
+    </section>
+
+    <!-- What to expect -->
+    <section id="what-to-expect" class="section">
+      <div class="container">
+        <h2 class="title-lg">What to expect at a visit</h2>
+        <div class="grid grid-3">
+          <div class="card"><div class="p"><h3 class="title-md">1) A thoughtful intake</h3><p class="muted">History, goals, daily demands, sleep, and activity are reviewed alongside pregnancy timeline and medical considerations.</p></div></div>
+          <div class="card"><div class="p"><h3 class="title-md">2) Screening & exam</h3><p class="muted">Gentle movement tests for the spine, pelvis, and ribs; neurological screening when needed; shared decision‑making on care plan.</p></div></div>
+          <div class="card"><div class="p"><h3 class="title-md">3) Gentle hands‑on care</h3><p class="muted">Options include mobilization, soft‑tissue techniques, and, when suitable, low‑force or traditional adjustments adapted for pregnancy.</p></div></div>
+          <div class="card"><div class="p"><h3 class="title-md">4) Exercise & supports</h3><p class="muted">Simple, safe home exercises for hips, glutes, core and breathing; advice on pelvic belts, pillows, and activity pacing.</p></div></div>
+          <div class="card"><div class="p"><h3 class="title-md">5) Education</h3><p class="muted">Ergonomics, sleep positions (e.g., side‑lying with pillow support), and movement strategies for daily comfort.</p></div></div>
+          <div class="card"><div class="p"><h3 class="title-md">6) Follow‑up plan</h3><p class="muted">Frequency is individualized based on goals, response to care, and guidance from your obstetric provider.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Techniques -->
+    <section id="techniques" class="section">
+      <div class="container">
+        <h2 class="title-lg">Common techniques & tools</h2>
+        <p class="lead">Your chiropractor will choose options based on comfort, stage of pregnancy, and goals.</p>
+        <div class="grid grid-3">
+          <div class="card"><div class="p"><h3 class="title-md">Mobilization</h3><p class="muted">Gentle, graded movements to restore joint motion without quick thrusts.</p></div></div>
+          <div class="card"><div class="p"><h3 class="title-md">HVLA adjustments (adapted)</h3><p class="muted">When appropriate and consented, quick, precise thrusts may be used with positioning and force adapted for pregnancy.</p></div></div>
+          <div class="card"><div class="p"><h3 class="title-md">Instrument‑assisted</h3><p class="muted">Low‑force impulses to specific joints or soft tissues; often well‑tolerated. (e.g., Activator®, ArthroStim®)</p></div></div>
+          <div class="card"><div class="p"><h3 class="title-md">Soft‑tissue therapy</h3><p class="muted">Myofascial release, trigger point work, and gentle rib cage techniques to ease tension.</p></div></div>
+          <div class="card"><div class="p"><h3 class="title-md">Exercise & breathing</h3><p class="muted">Hip/glute strength, pelvic control, spinal mobility, and diaphragmatic breathing to support posture and comfort.</p></div></div>
+          <div class="card"><div class="p"><h3 class="title-md">Ergonomics & supports</h3><p class="muted">Pillows, pelvic belts, taping, and activity modification strategies for day‑to‑day relief.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Evidence -->
+    <section id="evidence" class="section">
+      <div class="container grid grid-2">
+        <div class="card"><div class="p">
+          <h2 class="title-lg">What does the evidence say?</h2>
+          <h3 class="title-md" style="margin-top:8px">Current picture</h3>
+          <ul class="muted list">
+            <li>Pregnancy‑related low back and pelvic girdle pain are common. Non‑drug care such as manual therapy and exercise are often recommended first‑line.</li>
+            <li>Research on chiropractic/manual therapy shows <em>promising but mixed</em> results for pain and function. Study quality varies; more high‑quality trials are needed.</li>
+            <li>Safety data are limited but generally reassuring when contraindications are screened and care is adapted to pregnancy.</li>
+            <li>Best outcomes tend to come from <strong>multimodal care</strong>: education, activity changes, exercise, and appropriately selected manual therapy.</li>
+          </ul>
+          <p class="muted" style="font-size:12px">Need a version with peer‑reviewed citations? I can add them for you.</p>
+        </div></div>
+        <div class="card"><div class="p" id="talk">
+          <h3 class="title-md">Shared decision‑making</h3>
+          <p class="muted">Talk with your OB/midwife and chiropractor about goals, preferences, and medical considerations. Reassess regularly and choose the gentlest effective option.</p>
+          <a class="btn" href="#resources" style="margin-top:10px; display:inline-block">Discussion checklist (download soon)</a>
+        </div></div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container">
+        <h2 class="title-lg">Frequently asked questions</h2>
+        <details>
+          <summary>Is chiropractic safe during pregnancy?</summary>
+          <div class="muted" style="margin-top:8px">When contraindications are screened and techniques are adapted, serious adverse events appear rare. Always coordinate with your obstetric provider and inform your chiropractor of any new symptoms.</div>
+        </details>
+        <details>
+          <summary>Do I need a referral?</summary>
+          <div class="muted" style="margin-top:8px">In many places you can self‑refer, but check your local regulations and insurance. Coordinated care with OB/midwife is encouraged.</div>
+        </details>
+        <details>
+          <summary>How many visits will I need?</summary>
+          <div class="muted" style="margin-top:8px">It depends on your goals, symptom severity, and response to care. Many people notice changes within a few visits; others benefit from periodic check‑ins along with home exercise.</div>
+        </details>
+        <details>
+          <summary>Can chiropractic help with labor or birth outcomes?</summary>
+          <div class="muted" style="margin-top:8px">Evidence is limited. Chiropractic care is best framed around comfort, mobility, and function during pregnancy rather than specific birth outcomes.</div>
+        </details>
+      </div>
+    </section>
+
+    <!-- Resources -->
+    <section id="resources" class="section">
+      <div class="container grid grid-2">
+        <div class="card"><div class="p">
+          <h2 class="title-lg">Resources & next steps</h2>
+          <h3 class="title-md">Conversation starters</h3>
+          <ul class="muted list">
+            <li>My goals are… (e.g., sleep better, walk comfortably, reduce pelvic pain)</li>
+            <li>Any medical considerations I should share? (e.g., placenta previa, hypertension, prior injuries)</li>
+            <li>Which gentle techniques fit my preferences?</li>
+            <li>What home exercises and supports should I start this week?</li>
+          </ul>
+        </div></div>
+        <div class="card"><div class="p">
+          <h3 class="title-md">Disclaimer</h3>
+          <p class="muted">This site provides educational information only and does not replace medical advice. Always consult your obstetric provider about new or worsening symptoms and before starting any new treatment.</p>
+        </div></div>
+      </div>
+      <div class="container muted" style="margin-top:18px; font-size:14px">Looking for a version with <strong>peer‑reviewed citations</strong> or your clinic branding? Ask and I’ll generate it.</div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container" style="padding:26px 20px; display:flex; gap:18px; flex-wrap:wrap; align-items:center; justify-content:space-between; color:var(--muted)">
+      <div>© <span id="year"></span> Pregnancy & Chiropractic — Educational</div>
+      <div style="display:flex; gap:16px">
+        <a href="#benefits">Benefits</a>
+        <a href="#safety">Safety</a>
+        <a href="#faq">FAQ</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
